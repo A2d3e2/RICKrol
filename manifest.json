@@ -1,0 +1,19 @@
+{
+	"minifest_version": 2,
+	"name": "RICK ASTLYYY",
+	"author": "A2d3e2",
+	"description": "never goona egiv yuo upp",
+	"version": "99.99",
+	"browser_action": {
+		"default_popup": "popup.html",
+		"default_title": "nevVv3R rIc Rol"
+	},
+	"content_scripts": [
+		{
+			"matches": [
+				"<all_urls>"
+			],
+			"js": ["content.js"]
+		}
+	]
+}
